@@ -1,0 +1,25 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/me/me"
+  ],
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#35495e",
+    "borderStyle": "white",
+    "backgroundColor": "#f9f9f9",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/note.png",
+      "selectedIconPath": "images/note.png"
+    }, 
+    {
+      "pagePath": "pages/me/me",
+      "text": "我的",
+      "iconPath": "images/profile.png",
+      "selectedIconPath": "images/profile-actived.png"
+    }
+    ]
+  }
+}

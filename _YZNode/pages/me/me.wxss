@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.headImage {
+  width: 200px;
+  height: 200px;
+  background-color: yellowgreen;
+}

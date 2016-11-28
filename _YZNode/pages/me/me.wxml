@@ -1,0 +1,4 @@
+<view class="container">
+    <text>YZMobileTalks</text>
+    <image class="headImage" src="../../images/yzmobiletalks.jpg"/>
+</view>

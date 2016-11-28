@@ -1,0 +1,16 @@
+<view class="container">
+    <scroll-view scroll-y="true" height="100%" class="scrollView">
+        <block wx:for="{{nodes}}" wx:key="{{item.id}}">
+        <navigator url="../me/me?id={{item.id}}" hover-class="navigator-hover">
+            <view class="nodeView">
+                <text class="titleText">{{item.title}}</text>
+                <view class="bottomView">
+                    <text class="tab">{{item.tab}}</text>
+                    <text class="info">{{item.author.loginname}}|{{item.reply_count}}回复|{{item.visit_count}}访问</text>
+                </view>
+            </view>
+        </navigator> 
+        </block>
+    </scroll-view>
+</view>
+
